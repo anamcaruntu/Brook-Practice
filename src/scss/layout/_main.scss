@@ -1,3 +1,27 @@
-.main_menu {
-  height: 100vh;
+.hero {
+  background-image: url("../../assets/images/slider-home.jpg");
+  background-size: cover;
+  background-position-x: center;
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.hero_title {
+  margin: 0px;
+}
+.hero_title span {
+  display: block;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.menu_aboutus {
+  padding: 30px;
+  text-align: center;
+}
+
+.menu_aboutus p {
+  padding-top: 20px;
 }
