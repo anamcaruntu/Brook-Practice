@@ -25,3 +25,14 @@
 .menu_aboutus p {
   padding-top: 20px;
 }
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_menu_item {
+  display: block;
+}
