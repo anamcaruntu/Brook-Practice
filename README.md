@@ -31,10 +31,5 @@ El cliente Brook Design nos ha pedido que realicemos el desarrollo de su página
 
 ---
 
-La finalidad de este ejercicio no es que lo realices obligatoriamente, es para practicar y asimilar conceptos. No te estreses por compatibilizarlo con tu proyecto, puedes ir haciéndolo a tu ritmo. No se va a corregir en clase así que no tienes que terminarlo si no puedes.
-
-Te recomendamos que para practicar lo realices con el Starter Kit y crees partials por secciones, header, footer....
-
-No es obligatorio subirlo a ningún repo.
-
-Go! 💪💪
+La finalidad de este ejercicio es para practicar y asimilar conceptos. 
+💪💪
