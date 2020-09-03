@@ -8,6 +8,14 @@
   justify-content: center;
   align-items: center;
 }
+
+.wrapper {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+}
+
 .hero_title {
   margin: 0px;
 }
@@ -26,13 +34,33 @@
   padding-top: 20px;
 }
 
-.wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.options article {
+  border: 1px solid #cacaca;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
-.main_menu_item {
-  display: block;
+.options {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+
+    @media all and (min-width: 768px) {
+      flex-direction: row;
+    }
+  }
+}
+
+.option_items {
+  padding: 10px;
+}
+
+.option_items p {
+  font-size: 0.5 rem;
+}
+
+.option_items h3,
+p {
+  padding: 10px;
 }
